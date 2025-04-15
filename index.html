@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisao</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>1 - Botão que muda o texto</h3>
+    <p id="texto">Texto blablablababla</p>
+    <button onclick="mudarTexto()">Mudar Texto</button>
+
+    <h3>2 - Contador Faça um contador com 2 botões: um pra aumentar e outro pra diminuir o valor.</h3>
+    <p id="contador">0</p>
+    <button onclick="alterarContador(1)">+</button>
+    <button onclick="alterarContador(-1)">-</button>
+
+    <h3>3. Trocar cor de fundo
+        Use um addEventListener para mudar a cor de fundo da página ao clicar em um botão.</h3>
+    <button id="botaoCor">Mudar cor de fundo</button>    
+
+    <h3>4. Mostrar/ocultar texto
+        Crie um botão que mostra ou esconde um texto ao ser clicado.</h3>
+    <p id="segredo" style="display: none;">Texto blablablababla</p>
+    <button onclick="coisarTexto()">Mostrar/Esconder</button>
+
+    <h3>5. Validação de formulário
+        Crie um input de nome e um botão. Mostre uma mensagem de erro se o campo estiver vazio ao clicar.</h3>
+
+    <input type="text" placeholder="Digite seu nome" id="nome"> 
+    <button onclick="validar()">Enviar</button>  
+    <p id="mensagem"></p>
+
+    <h3>6. Alterar estilo com JS
+        Faça um botão que, ao ser clicado, deixa um parágrafo com texto em vermelho e negrito.</h3>
+    <p id="estilo">Texto blablablababla</p>    
+    <button onclick="mudarCor()">Alterar Cor</button>
+
+    <h3>8. Lista de tarefas
+        Adicione tarefas com um botão, usando addEventListener.</h3>
+    <input type="text" id="tarefa">    
+    <button id="addTarefa">Add tarefa</button>
+    <ul id="lista"></ul>
+
+    <h3>9. Mouseover
+        Altere a cor de um elemento quando o mouse passa por cima e volta ao normal quando sai.</h3>
+    <div id="caixa" style="width:100px; height:100px; background:gray;"></div>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
